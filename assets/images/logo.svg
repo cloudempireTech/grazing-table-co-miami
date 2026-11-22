@@ -1,0 +1,34 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 100" width="500" height="100">
+  <defs>
+    <linearGradient id="goldGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#D97706"/>
+      <stop offset="50%" stop-color="#F59E0B"/>
+      <stop offset="100%" stop-color="#B45309"/>
+    </linearGradient>
+    <linearGradient id="leafGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#15803D"/>
+      <stop offset="100%" stop-color="#2D5A27"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Botanical Wreath & Honeycomb Emblem -->
+  <g transform="translate(14, 10)">
+    <circle cx="40" cy="40" r="36" fill="#FDFBF7" stroke="url(#goldGrad)" stroke-width="2"/>
+    <!-- Honeycomb Hexagon -->
+    <polygon points="40,18 55,27 55,45 40,54 25,45 25,27" fill="none" stroke="url(#goldGrad)" stroke-width="1.8"/>
+    <!-- Olive Leaves -->
+    <path d="M26 40 C20 48, 24 60, 32 58 C38 56, 36 46, 26 40 Z" fill="url(#leafGrad)"/>
+    <path d="M54 40 C60 48, 56 60, 48 58 C42 56, 44 46, 54 40 Z" fill="url(#leafGrad)"/>
+    <circle cx="40" cy="36" r="3.5" fill="#D97706"/>
+  </g>
+
+  <!-- Typography -->
+  <text x="104" y="46" font-family="'Playfair Display', Georgia, serif" font-weight="800" font-size="28" letter-spacing="3" fill="#1C1917">
+    GRAZING TABLE CO.
+  </text>
+  
+  <!-- Subtitle -->
+  <text x="106" y="72" font-family="-apple-system, BlinkMacSystemFont, 'SF Pro Text', sans-serif" font-weight="600" font-size="11" letter-spacing="3.5" fill="#D97706">
+    SIMPLY MINDFUL EVENTS • MIAMI
+  </text>
+</svg>
